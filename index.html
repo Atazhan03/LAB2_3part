@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+<title> Med.History </title>
+</head>
+<body>
+<h1>Medical History</h1>
+
+<form action="lab3_part2_Submit.html">
+
+  <b>Full Name<br></b>
+  <label for="FIRSTname"></label>
+  <input type="text" id="FIRSTname" name="First name" >
+  <label for="LASTname"></label>
+  <input type="text" id="LASTname" name="Last name" ><br>
+
+  <p>Name_________________Last Name</p>
+
+  <b>Phone number</b>
+  <label for="PHnumber"></label><br>
+  <input type="number" id="PHnumber" name="PHumber" >
+
+  <br><br>
+
+  <b>1. Check the condition that apply to you or to any members of your immediate relatives</b>
+   <label for="Asthma"></label><br>
+  <input type="checkbox" id="Asthma" name="Asthma">Asthma
+  <label for="Cancer"></label><br>
+  <input type="checkbox" id="Cancer" name="Cancer">Cancer
+  <label for="Cardicisease"></label><br>
+  <input type="checkbox" id="Cardicisease" name="Cardicisease">Cardic disease
+  <label for="Diabetes"></label><br>
+  <input type="checkbox" id="Diabetes" name="Diabetes">Diabetes
+  <label for="Hypertension"></label><br>
+  <input type="checkbox" id="Hypertension" name="Hypertension">Hypertension
+  <label for="Psygiatricdisorder"></label><br>
+  <input type="checkbox" id="Psygiatricdisorder" name="Psygiatric disorder">Psygiatric disorder
+  <label for="Epilepcy"></label><br>
+  <input type="checkbox" id="Epilepcy" name="Epilepcy">Epilepcy
+
+  <br><br>
+
+  <b>2. Check the symptoms that you're currently experiencing</b>
+
+   <label for="Chestpain"></label><br>
+  <input type="checkbox" id="Chestpain" name="Chest pain">Chest pain
+  <label for="Respiratory"></label><br>
+  <input type="checkbox" id="Respiratory" name="Respiratory">Respiratory
+  <label for="Cardicdisease"></label><br>
+  <input type="checkbox" id="Cardicdisease" name="Cardicdisease">Cardic disease
+  <label for="Cardiovascular"></label><br>
+  <input type="checkbox" id="Cardiovascular" name="Cardiovascular">Cardiovascular
+  <label for="Hematological"></label><br>
+  <input type="checkbox" id="Hematological" name="Hematological">Hematological
+  <label for="Neurological"></label><br>
+  <input type="checkbox" id="Neurological" name="Neurological">Neurological
+  <label for="Psychiatric"></label><br>
+  <input type="checkbox" id="Psychiatric" name="Psychiatric">Psychiatric
+  <label for="Gastrointestial"></label><br>
+  <input type="checkbox" id="Gastrointestial" name="Gastrointestial">Gastrointestial
+  <label for="Genitourinary"></label><br>
+  <input type="checkbox" id="Genitourinary" name="Genitourinary">Genitourinary
+  <label for="Weightgain"></label><br>
+  <input type="checkbox" id="Weightgain" name="Weightgain">Weight gain
+  <label for="Weeightloss"></label><br>
+  <input type="checkbox" id="Weeightloss" name="Weeightloss">Weeight loss
+  <label for="Muskulosceletal"></label><br>
+  <input type="checkbox" id="Muskulosceletal" name="Muskulosceletal">Muskulosceletal
+
+  <br><br>
+
+  <b>3. Are you currently taking any medication?</b><br>
+
+  <label for="Yes"></label>
+  <input type="radio" id="Yes" name="Yes" >Yes<br>
+  <label for="No"></label>
+  <input type="radio" id="No" name="No" >No
+
+  <br><br>
+
+  <b>4. Do you have any medication allergasy?</b><br>
+
+  <label for="Yes1"></label>
+  <input type="radio" id="Yes1" name="Yes1" >Yes<br>
+  <label for="No1"></label>
+  <input type="radio" id="No1" name="No1" >No<br>
+  <label for="Notsure"></label>
+  <input type="radio" id="Notsure" name="Notsure" >Not sure
+
+  <br><br>
+
+  <b>5. What is your gender?</b><br>
+
+  <label for="Male"></label>
+  <input type="radio" id="Male" name="Male" >Male<br>
+  <label for="Female"></label>
+  <input type="radio" id="Female" name="Female" >Female
+
+  <br><br>
+
+  <b>6. Do you use or do you have history of using tobacco?</b>
+
+  <br><br>
+
+  <select name="tob" required="required">
+    <option value="">Choice</option>
+    <option>Yes</option>
+    <option>No</option>
+  </select>
+
+  <br><br>
+
+  <b>7. Do you use or do you have history of using illegal drugs?</b>
+
+  <br><br>
+
+  <select name="drug" required="required">
+    <option value="">Choice</option>
+    <option>Yes</option>
+    <option>No</option>
+  </select>
+
+  <br><br>
+
+  <b>8. How often do you consume alcohol?</b><br>
+
+  <table style="width:50%">
+
+  <tr>
+  <td><label for="Daily"></label>
+  <input type="radio" id="Daily" name="Daily" >Daily</td>
+  <td><label for="Weekly"></label>
+  <input type="radio" id="Weekly" name="Weekly" >Weekly</td>
+  <td></td>
+  </tr>
+
+  <tr>
+  <td><label for="Monthly"></label>
+  <input type="radio" id="Monthly" name="Monthly" >Monthly</td>
+  <td><label for="Occasionally"></label>
+  <input type="radio" id="Occasionally" name="Occasionally" >Occasionally</td>
+  <td><label for="Never"></label></td>
+   </tr>
+
+  <tr>
+  <td><input type="radio" id="Never" name="Never" >Never</td>
+  <td></td><td></td>
+  </tr>
+  </table>
+
+  <br><br>
+
+  <input type="submit">
+
+</form> 
+</body>
+</html>
